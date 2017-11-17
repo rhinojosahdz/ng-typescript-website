@@ -26,9 +26,16 @@ export const baseEnvironment = {
   ],
   projects: [
     {
+      id: 'ng-pacman',
+      name: 'Pacman',
+      technologies: 'Angular 2+/SVG/TypeScript',
+      url: `${baseUrl}/ng-pacman`,
+      video: 'ng-pacman.m4v',
+    },
+    {
       id: 'ng-invaders',
       name: 'Space Invaders',
-      technologies: 'Angular2/TypeScript',
+      technologies: 'Angular 2+/TypeScript',
       url: `${baseUrl}/ng-invaders`,
       appStore: 'https://play.google.com/store/apps/details?id=com.rhinojosa.ng_invaders',
       video: 'ng-invaders.m4v',
@@ -36,7 +43,7 @@ export const baseEnvironment = {
     {
       id: 'angulatris',
       name: 'Tetris',
-      technologies: 'AngularJS/JavaScript',
+      technologies: 'Angular JS/JavaScript',
       url: `${baseUrl}/angulatris`,
       appStore: 'https://play.google.com/store/apps/details?id=net.angularguy.tetris',
       video: 'angulatris.m4v',
@@ -44,7 +51,7 @@ export const baseEnvironment = {
     {
       id: 'rhinojosadotcom',
       name: 'My Website',
-      technologies: 'Angular2/TypeScript',
+      technologies: 'Angular 2+/TypeScript',
       url: `${baseUrl}`,
       video: 'rhinojosadotcom.m4v',
     },
