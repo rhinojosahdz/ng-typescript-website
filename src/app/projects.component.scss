@@ -1,0 +1,29 @@
+@import "../vars";
+#bob-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    &.bob- {}
+}
+
+.bob- {
+    &project {
+        display: flex;
+        flex-direction: column;
+        .bob-video,
+        .bob-img-fail {
+            width: $projectSize;
+            padding: 0px 10px;
+        }
+        .bob-name {
+            margin-top: 50px;
+        }
+        .bob-name,
+        .bob-url,
+        .bob-technologies,
+        .bob-app-store {
+            margin-bottom: 15px;
+        }
+    }
+}

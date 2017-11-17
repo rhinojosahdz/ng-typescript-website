@@ -2,12 +2,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import * as _ from 'lodash';
 import { ModelService } from './model.service';
 @Component({
-  encapsulation: ViewEncapsulation.None,
-  selector: 'bob-app',
-  styleUrls: ['app.component.scss'],
-  templateUrl: 'app.component.html',
+  selector: 'bob-hamburger-button',
+  styleUrls: ['hamburger-button.component.scss'],
+  templateUrl: 'hamburger-button.component.html',
 })
-export class AppComponent {
+export class HamburgerButtonComponent {
   constructor(
     public modelService: ModelService,
   ) {

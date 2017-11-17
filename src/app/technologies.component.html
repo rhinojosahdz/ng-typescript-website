@@ -1,0 +1,12 @@
+<div id="bob-technologies">
+  <input class="bob-search-box" placeholder="Search..." [(ngModel)]="searchText">
+  <div class="bob-technology" *ngFor="let technology of environment.technologies | like : 'name' : searchText">
+    <div class="bob-name">
+      <h3>{{technology.name}}</h3>
+    </div>
+    <div class="bob-stars">
+      <div class="bob-star" *ngFor="let star of stars; let i = index;" [ngClass]="{'bob-fill' : technology.stars > i}">
+      </div>
+    </div>
+  </div>
+</div>

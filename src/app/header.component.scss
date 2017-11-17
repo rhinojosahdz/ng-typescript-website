@@ -1,0 +1,30 @@
+@import "../vars";
+#bob-header {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// less than $$headerSwapButtons
+@media only screen and (max-width: $headerSwapButtons) {
+    header {
+        .bob- {
+            &tab-header {
+                display: none;
+            }
+        }
+        justify-content: flex-start;
+    }
+}
+
+// greater than $$headerSwapButtons
+@media only screen and (min-width: $headerSwapButtons+1) {
+    bob-hamburger-button {
+        display: none;
+    }
+}
