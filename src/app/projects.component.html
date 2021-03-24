@@ -8,7 +8,9 @@
     <!-- seems like is better if we don't include the type="video/mp4": https://www.broken-links.com/2010/07/08/making-html5-video-work-on-android-phones/ -->
     <video controls class="bob-video" (click)="playVideo($event)" [poster]="'assets/' + project.id + '.png'">
       <source [src]="'assets/' + project.id + '.m4v'" type="video/mp4">
+      <source [src]="'assets/' + project.id + '.ogg'" type="video/ogg">
       <source [src]="'assets/' + project.id + '.webm'" type="video/webm">
+      <source [src]="'assets/' + project.id + '.mov'" type="video/mov">
       <img class="bob-img-fail" [width]="environment.video.width" [alt]="project.name" [src]="'assets/' + project.id + '.png'">
     </video>
   </div>
