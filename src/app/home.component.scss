@@ -13,12 +13,27 @@
             // TODO how to access & grand-parent (.bob-)
             // width: 300px;
             margin-bottom: 10px;
-            margin: 0 35px;
+            margin-top: 0;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         .bob-second {
+            margin-bottom: 10px;
+            margin: 15px;
+            color: red;
+        }
+        .bob-third {
             // width: 300px;
             margin-bottom: 10px;
-            margin: 35px;
+            margin: 15px;
         }
     }
+}
+
+.blink {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
