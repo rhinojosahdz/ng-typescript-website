@@ -38,7 +38,7 @@ export const baseEnvironment = {
       name: 'Diamond Crush',
       technologies: 'Angular 2+/SVG/TypeScript/Ionic',
       // url: `${baseUrl}/ng-pacman`,
-      appStore: 'https://play.google.com/store/apps/details?id=com.rhinojosa.easybarchartcreator',
+      appStore: 'https://play.google.com/store/apps/details?id=com.rhinojosa.diamondcrush',
       video: 'easy-bar-chart-creator.m4v',
     },
     {
